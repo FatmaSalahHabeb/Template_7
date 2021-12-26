@@ -1,0 +1,459 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home .nav-log a {
+    font-family: 'Kanit', sans-serif;
+}
+
+h1,
+h5 {
+    font-family: 'Secular One', sans-serif;
+}
+
+
+/*  start home style  ======================================================================  */
+
+.nav_logo {
+    width: 40px;
+}
+
+.home {
+    width: 100%;
+    background-image: url(task7/images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    ;
+}
+
+.left-arrow {
+    background-color: #11a67d;
+    padding: 5px 7px;
+    border-radius: 4px;
+}
+
+.home_btn {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 6px 25px;
+}
+
+.home_navbar {
+    background-color: #11a67d;
+    width: 101%;
+}
+
+.home_navbar a {
+    color: #fff;
+}
+
+.home_arrow {
+    top: 345px;
+}
+
+
+/*  end home style  ======================================================================  */
+
+
+/*  start nav_bar style  ======================================================================  */
+
+.btn-outline-success {
+    color: #fff;
+    /* border-color: #28a745; */
+    border: none;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    /* color: rgba(0,0,0,.9); */
+    color: #fff;
+}
+
+.nav_row {
+    width: 101%;
+}
+
+.navbar-light .navbar-toggler-icon {
+    /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e); */
+    background-image: url(task7/images/menu.png);
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-toggler {
+    /* padding: 0.25rem 0.75rem; */
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    /* border: 1px solid transparent; */
+    /* border-radius: 0.25rem; */
+    transition: box-shadow .15s ease-in-out;
+    border: none;
+}
+
+
+/*  end nav_bar style  ======================================================================  */
+
+
+/*  start about style  ======================================================================  */
+
+.span_circle {
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 24px;
+    left: 258px;
+}
+
+.about_hr {
+    width: 13%;
+    margin-top: -22px;
+    padding-bottom: 1px;
+    background-color: #0ca97c;
+}
+
+.about_btn {
+    background-color: red;
+    color: #fff;
+}
+
+
+/*  end about style  ======================================================================  */
+
+
+/*  start services style  ======================================================================  */
+
+.card1 {
+    background-color: red;
+    border-radius: 18px;
+}
+
+.card1>img {
+    padding-top: 20px;
+}
+
+.card2 {
+    background-color: #0ca579;
+    border-radius: 18px;
+}
+
+.card2>img {
+    padding-top: 15px;
+}
+
+.span_circle2 {
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 26px;
+    left: 238px;
+}
+
+
+/*  end services style  ======================================================================  */
+
+
+/*  start skills style  ======================================================================  */
+
+.bar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    fill: none;
+}
+
+svg circle {
+    position: absolute;
+    stroke: #fff;
+    stroke-width: 9px;
+    transform-origin: center;
+    transform: translate(0.93);
+    stroke-dasharray: 473px;
+    stroke-dashoffset: 804px;
+    transform: rotate( 147deg)
+}
+
+svg .circle2 {
+    position: absolute;
+    stroke: #fff;
+    stroke-width: 9px;
+    transform-origin: center;
+    transform: translate(0.93);
+    stroke-dasharray: 443px;
+    stroke-dashoffset: 804px;
+    transform: rotate( 184deg);
+}
+
+svg .circle3 {
+    position: absolute;
+    stroke: #fff;
+    stroke-width: 9px;
+    transform-origin: center;
+    transform: translate(0.93);
+    stroke-dasharray: 443px;
+    stroke-dashoffset: 714px;
+    transform: rotate( 109deg);
+}
+
+.skills {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    background-image: url(task7/images/skill-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    background-size: cover;
+}
+
+.skill_text {
+    padding: 30px 0;
+}
+
+.skill_col {
+    margin-top: -75px;
+    padding: 24px 0;
+}
+
+.span_circle3 {
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 26px;
+    right: -21px;
+}
+
+.skill_h1::after {
+    content: "";
+    width: 5%;
+    height: 3px;
+    position: absolute;
+    background-color: #fff;
+    right: 104px;
+    top: 47px;
+}
+
+.loader p {
+    position: relative;
+    /* top: 30%; */
+    /* left: 22%; */
+    top: 94px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+/*  end skills style  ======================================================================  */
+
+
+/*  start portfolio style  ======================================================================  */
+
+.portfolio_im_p {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 2px 15px #000;
+}
+
+.portfolio_hr::after {
+    content: "";
+    width: 5%;
+    height: 3px;
+    position: absolute;
+    background-color: #0ca579;
+    left: 11px;
+    top: 47px;
+}
+
+.span_circle4 {
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 26px;
+    left: 251px;
+}
+
+
+/*  end portfolio style  ======================================================================  */
+
+
+/*  start testimonial style  ======================================================================  */
+
+.span_circle5 {
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 17px;
+    right: 423px;
+}
+
+.test_card {
+    padding: 20px;
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.test_card img {
+    width: 100%;
+}
+
+.test_img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 21px;
+}
+
+.card-title_h1 {
+    color: #0ca579;
+    font-size: 17px;
+}
+
+.text_im_des {
+    line-height: 0;
+}
+
+.test_card2 {
+    margin-top: 160px;
+}
+
+.card_img {
+    width: 40%;
+    height: 100%;
+    background-image: url(task7/images/client-2.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.last_arrow {
+    width: 50px;
+    height: 50px;
+    /* padding: 23px; */
+    background-color: #11a67d;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -22px;
+}
+
+.test_left_arrow {
+    padding: 15px 17px;
+}
+
+.last_arrow2 {
+    width: 50px;
+    height: 50px;
+    /* padding: 23px; */
+    background-color: #11a67d;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -30px;
+}
+
+.test_right_arrow {
+    padding: 15px 0px;
+}
+
+.test_container {
+    width: 103%;
+    margin: auto;
+}
+
+
+/*  end testimonial style  ======================================================================  */
+
+
+/*  start contact style  ======================================================================  */
+
+.contact_us {
+    width: 100%;
+    background-color: #0ca579;
+    padding: 148px 0 72px 0;
+}
+
+.form_border {
+    border-radius: 20px;
+}
+
+ ::placeholder {
+    padding: 10px;
+}
+
+.form_btn {
+    background-color: red;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 23px;
+    padding: 10px 33px;
+}
+
+
+/*  end contact style  ======================================================================  */
+
+
+/*  start footer style  ======================================================================  */
+
+.footer {
+    width: 100%;
+    background-color: #211f34;
+}
+
+footer ul ul {
+    list-style: square;
+}
+
+footer ul ul .li {
+    color: green;
+}
+
+.footer_li {
+    margin-left: -10px;
+}
+
+.footer_im {
+    width: 15px;
+}
+
+.footer_btn {
+    background-color: #0ca579;
+    padding: 10px 26px;
+    border-radius: 26px;
+    color: #fff;
+}
+
+.hr {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+
+/*  end footer style  ======================================================================  */
